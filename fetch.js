@@ -11,7 +11,7 @@ async function getDataAsync() {
 }
 getDataAsync()
 
-// //------------------------------------------------------------
+//------------------------------------------------------------
 
 fetch('https://api.sampleapis.com/beers/ale')
     .then((response) => {
@@ -25,7 +25,7 @@ fetch('https://api.sampleapis.com/beers/ale')
 
     })
 
-// //------------------------------------------------------------
+//------------------------------------------------------------
 
 fetch('https://api.sampleapis.com/beers/ale')
     //.then((response) => { return response.json()})//same thing
