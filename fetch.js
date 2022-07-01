@@ -1,8 +1,8 @@
 import fetch from 'node-fetch'
-
+const url = 'https://api.sampleapis.com/beers/ale'
 async function getDataAsync() {
     try{
-        const  response = await fetch('https://api.sampleapis.com/beers/ale')//GET request by default & promise returns 
+        const  response = await fetch(url)//GET request by default & promise returns 
         const data = await response.json()
         console.log(data)
     }   catch(err) {
